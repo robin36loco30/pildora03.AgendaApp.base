@@ -21,7 +21,6 @@ public class Main {
         // 5. Imprimir por pantalla el número de contactos del grupo “trabajo”.
         System.out.println("Número de contactos en el grupo 'trabajo': " + trabajoGroup.contactCount());
         // Imprimir la fecha de alta del miembro en el grupo
-        Member member = trabajoGroup.getMember(0);
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
         System.out.println("Fecha de alta en el grupo: " + member.getDate().format(formatter));
         // 6. Borrar el primer contacto del grupo “trabajo".
