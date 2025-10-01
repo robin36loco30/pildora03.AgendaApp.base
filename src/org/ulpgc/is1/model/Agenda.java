@@ -6,7 +6,7 @@ public class Agenda {
     private ArrayList<Contact> contacts;
     private ArrayList<Group> groups;
 
-    public Agenda(ArrayList<Contact> contacts, ArrayList<Group> groups) {
+    public Agenda() {
         this.contacts = contacts;
         this.groups = groups;
     }
@@ -30,4 +30,6 @@ public class Agenda {
     public ArrayList<Group> getGroups() {
         return groups;
     }
+
+
 }
