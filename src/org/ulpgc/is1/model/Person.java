@@ -5,8 +5,8 @@ public class Person extends Contact {
     public String firstName;
     public String lastName;
 
-    public Person(String telephone, String email, Address address, String firstName, String lastName) {
-        super(telephone, email, address);
+    public Person(String telephone, String email, String street, int number, int floor, String city, String firstName, String lastName) {
+        super(telephone, email, street, number, floor, city);
         this.firstName = firstName;
         this.lastName = lastName;
     }

@@ -18,8 +18,8 @@ public class Group {
         contacts.add(contact);
     }
 
-    public void removeContact(Contact contact){
-        contacts.remove(contact);
+    public void removeContact(int indice){
+        contacts.remove(indice);
     }
 
 

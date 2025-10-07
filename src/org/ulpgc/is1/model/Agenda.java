@@ -7,8 +7,9 @@ public class Agenda {
     private ArrayList<Group> groups;
 
     public Agenda() {
-        this.contacts = contacts;
         this.groups = groups;
+        this.contacts = contacts;
+
     }
 
     public void addPerson(Person person){
@@ -19,7 +20,8 @@ public class Agenda {
         contacts.add(company);
     }
 
-    public void addGroup(Group group){
+    public void addGroup(String grupo){
+        Group group = new Group(grupo);
         groups.add(group);
     }
 
@@ -31,5 +33,7 @@ public class Agenda {
         return groups;
     }
 
-
+    public void addPerson(String firstName, String LastName, String phone, String mail, String street, int number, int floor, String city) {
+        Person person = new Person(phone, mail, street, number, floor, city, firstName, LastName);
+    }
 }

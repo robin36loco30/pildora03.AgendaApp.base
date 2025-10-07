@@ -8,14 +8,7 @@ public class Main {
     public static void main(String[] args) {
         Agenda agenda = new Agenda();
         // 1. Crear dos contactos en la agenda de tipo Person.
-        agenda.addPerson("John",
-                "Doe",
-                "123456789",
-                "john.doe@example.com",
-                "Main Street",
-                123,
-                4,
-                "Anytown");
+        agenda.addPerson("John", "Doe", "123456789", "john.doe@example.com", "Main Street", 123, 4, "Anytown");
         agenda.addPerson("Jane", "Doe", "987654321", "jane.doe@example.com", "Other Street", 456, 1, "Othertown");
         // 2. Crear un grupo en la agenda llamado "trabajo".
         agenda.addGroup("trabajo");
